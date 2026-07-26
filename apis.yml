@@ -1,8 +1,16 @@
 aid: explomar
 name: Explomar
-description: 'Explomar is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'ExploMar (Changshu, China) designs and manufactures high-power fully-electric
+  outboard propulsion systems for boats, ranging from 70HP to 1200HP. Its product line
+  spans lightweight axial-flux electric outboard motors, high-density marine batteries
+  for long-range and wide-temperature operation, the Smart Captain integrated control
+  system with 200+ diagnostic capabilities, and 5S energy/charging stations (7kW portable
+  through 120kW dual-gun). ExploMar markets an eco-friendly, high-performance alternative
+  to combustion marine propulsion and exhibits at international yachting festivals
+  (Cannes, Monaco, Interboot, Polboat). Backed by DCM Ventures; surfaced in the API
+  Evangelist network as a portfolio company. Note: ExploMar is a marine hardware
+  manufacturer and publishes no public developer API, documentation, or SDKs at this
+  time — this profile carries identity and web-property signals only.'
 url: https://raw.githubusercontent.com/api-evangelist/explomar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,31 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.explomar.tech/wp-content/uploads/2024/10/logo11.png
 tags:
 - Company
 - Enterprise
+- Marine
+- Electric Propulsion
+- Outboard Motors
+- Marine Hardware
+- Clean Energy
+- Boating
+- Electric Vehicles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.explomar.com.cn/
+  url: https://www.explomar.tech/
+- type: Blog
+  url: https://www.explomar.tech/community/blog/
+- type: Support
+  url: https://www.explomar.tech/faq/
+- type: TermsOfService
+  url: https://www.explomar.tech/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.explomar.tech/privacy-policy/
+- type: DomainSecurity
+  url: security/explomar-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
